@@ -15,7 +15,7 @@ interface CountdownContextProps {
   children: ReactNode;
 }
 
-const INITIAL_TIME: number = 0.05 * 60;
+const INITIAL_TIME: number = 25 * 60;
 
 let countdownTimeout: NodeJS.Timeout;
 
